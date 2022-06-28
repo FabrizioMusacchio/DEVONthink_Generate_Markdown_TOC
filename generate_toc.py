@@ -7,7 +7,7 @@ links section (if any, "<!-- LINKS START -->...<!-- LINKS END -->?").
 The script is tailored to work in combination with an Applescript to add
 the TOC to DEVONthink Markdown documents.
 
-author: Fabrizio Musacchio (hello@fabriziomusacchio.com)
+author: Fabrizio Musacchio (https://www.fabriziomusacchio.com)
 date:  19.02.2022
 """
 # %% IMPORTS
