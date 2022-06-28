@@ -48,7 +48,7 @@ By default, the script ignores the first line of the document, so that the docum
 The script respects a so-called reference
 links section (`<!-- LINKS START -->...<!-- LINKS END -->?`, if available). This section is the result of another Applescript I apply for handling Markdown reference links.
 
-When the Python script is done, the original content including the TOC and all other additions is hand-overed back to the Applescript, which replaces the document's current content with the updated one.
+When the Python script is done, the original content including the TOC and all other additions is handed-over back to the Applescript, which replaces the document's current content with the updated one.
 
 The "TOC remove" script removes the generated TOC, the added headline labels and the Back-to-top links.
 
