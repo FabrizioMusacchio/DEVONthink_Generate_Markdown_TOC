@@ -54,4 +54,3 @@ The "TOC remove" script removes the generated TOC, the added headline labels and
 
 ## Use at your own risk
 I checked both scripts for various possible formatting within a Markdown document and I tried to make them as failure-resistant as possible. Nevertheless, the scripts replace your document's content with an actually new version of the content, which contains the additions mentioned above. In extreme cases, formatting that have not yet been taken into account can change the content. **Therefore, please backup your files before you apply the scripts and first try them out with some Markdown files, that contain the some formatting that you usually apply to your documents**. Please report any bugs in the issue section.
-
