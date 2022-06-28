@@ -2,8 +2,8 @@
 
 This Applescript generates a table of contents (TOC) and Back-to-top links in DEVONthink's Markdown documents.
 
-<div style="text-align: center;"><a href="Screenshot_preview.png"><img src="Screenshot_preview.png" style="width: 49%;"></a>
-<a href="Screenshot_editview.png"><img src="Screenshot_editview.png" style="width: 49%;"></a>
+<div style="text-align: center;"><a href="Screenshot_preview.png"><img src="Screenshot_preview.png" style="width: 90%;"></a>
+<a href="Screenshot_editview.png"><img src="Screenshot_editview.png" style="width: 90%;"></a>
 
 The generated TOC in DEVONthink's Markdown preview (left) and edit (right) view. 
 </div> 
