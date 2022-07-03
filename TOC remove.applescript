@@ -9,8 +9,8 @@
 set MyPythonScriptPath to "<SET PATH TO THE PYTHON SCRIPT FOLDER>"
 if MyPythonScriptPath = "<SET PATH TO THE PYTHON SCRIPT FOLDER>" then error "Error: Variable 'MyPythonScriptPath' not set. Please set the path of the folder, that contains the convert_wikilinks_to_markdown_links.py Python script."
 
--- On macOS < 12.3, set LocalPython to "/usr/bin/python". For higher macOS versions, install Python (e.g., via Anaconda.com or python.org), find out the path of your new Python installation: Open a terminal and type "which python") and set LocalPython to the given result.
-set LocalPython to "/Users/husker/opt/anaconda3/bin/python"
+-- On macOS < 12.3, set LocalPython to "/usr/bin/python". For higher macOS versions, install Python (e.g., via Anaconda.com or python.org), find out the path of your new Python installation (open a terminal and type "which python") and set LocalPython to the given result. The default setting below links to the Anaconda installation; in case you're also using Anaconda, please replace "<USER>" with your user name.
+set LocalPython to "/Users/<USER>/opt/anaconda3/bin/python"
 
 tell application id "DNtp"
 	try
