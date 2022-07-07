@@ -2,11 +2,11 @@
 
 This AppleScript generates a table of contents (TOC) and adds a floating back-to-top button in DEVONthink's Markdown documents.
 
-<p align="center">
+<p align="center"  style="text-align: center;">
 <a href="Screenshots/Screenshot_preview_new.png"><img src="Screenshots/Screenshot_preview_new.png" style="width: 90%;"></a>
 <a href="Screenshots/Screenshot_editview_new.png"><img src="Screenshots/Screenshot_editview_new.png" style="width: 90%;"></a>
 
-The generated TOC in DEVONthink's Markdown preview (top) and edit (bottom) view with the floating Back-to-top button. 
+The generated TOC and the floating Back-to-top button in DEVONthink's Markdown preview (top) and edit (bottom) view. 
 </p> 
 
 ## How to install
@@ -19,7 +19,7 @@ Download the two AppleScript and Python files:
 
 Place the AppleScript files into DEVONthink's script folder.
 
-<p align="center">
+<p align="center" style="text-align: center;">
 <a href="Screenshots/Screenshot_DEVONthink_script_folder.png"><img src="Screenshots/Screenshot_DEVONthink_script_folder.png" style="width: 100%;"></a>
 
 Open DEVONthink's script folder via DEVONthink's script menu.
@@ -126,11 +126,11 @@ The version
 
 differs from the one above in such a away, that it adds Back-to-toc links above each headline instead of the floating back-to-toc button. It also does not require any additional CSS commands. 
 
-<p align="center">
+<p align="center" style="text-align: center;">
 <a href="Screenshots/Screenshot_preview.png"><img src="Screenshots/Screenshot_preview.png" style="width: 90%;"></a>
 <a href="Screenshots/Screenshot_editview.png"><img src="Screenshots/Screenshot_editview.png" style="width: 90%;"></a>
 
-The generated TOC in DEVONthink's Markdown preview (top) and edit (bottom) view with Back-to-toc links. 
+The generated TOC with Back-to-toc links in DEVONthink's Markdown preview (top) and edit (bottom). 
 </p>
 
 
