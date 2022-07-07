@@ -1,10 +1,10 @@
 -- Generate a table of contents (TOC) in DEVONthink's Markdown documents.
--- The script also adds a floating Back-to-toc button, that relies on CSS commands. Please find these commands here and them to your Markdown style sheet file: https://github.com/FabrizioMusacchio/DEVONthink_Generate_Markdown_TOC
+-- The script also adds Back-to-toc links over each headline.
 --
 -- This script relies on an external Python script (works for both, Python 2 and 3). The path to the folder, that contains that Python script, must be added to this Applescript (in 'MyPythonScriptPath').
 --
 -- author: Fabrizio Musacchio (https://www.fabriziomusacchio.com)
--- date: Jul 05, 2022
+-- date: Feb 18, 2022
 
 -- Please specify the path to the folder, where you've saved the Python script:
 set MyPythonScriptPath to "<SET PATH TO THE PYTHON SCRIPT FOLDER>"
