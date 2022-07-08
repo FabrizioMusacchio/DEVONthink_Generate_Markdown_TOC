@@ -89,8 +89,9 @@ The CSS commands for the TOC layout are:
 }*/
 ```
 
-
 You can also find my full CSS file [here](https://github.com/FabrizioMusacchio/GitHub_Flavor_Markdown_CSS).
+
+To make the floating Back-to-toc button work in DEVONthink To Go (DTTG) as well, please [add the CSS commands from above into the CSS field of DTTG](https://github.com/FabrizioMusacchio/GitHub_Flavor_Markdown_CSS#floating-back-to-top-button-in-devonthink-to-go).
 
 
 ## How the script works
