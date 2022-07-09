@@ -21,7 +21,7 @@ tell application id "DNtp"
 		repeat with theRecord in every selected record
 			if type of theRecord is markdown then
 				set theText to plain text of theRecord
-				set theShellScript to LocalPython & " " & MyPythonScriptPath & "generate_toc.py " & quoted form of theText
+				set theShellScript to LocalPython & " " & MyPythonScriptPath & "generate_toc_with_btt_button.py " & quoted form of theText
 				set TheNewText to do shell script theShellScript
 				--["Result ", TheNewText]
 				set plain text of theRecord to TheNewText
