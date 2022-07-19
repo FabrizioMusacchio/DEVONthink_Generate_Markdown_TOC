@@ -25,7 +25,11 @@ Place the AppleScript files into DEVONthink's script folder.
 Open DEVONthink's script folder via DEVONthink's script menu.
 </p> 
 
-Place the Python scripts into a folder of your choice. The AppleScripts rely on these Python scripts, which work for both Python 2 and 3. The path to the folder containing the Python scripts must be specified in the AppleScript (in the `MyPythonScriptPath` variable).
+Place the Python scripts into a folder of your choice. The path to the folder containing the Python scripts must be specified in the `MyPythonScriptPath` variable within the AppleScripts. 
+
+The AppleScripts rely on these Python scripts, which work for both Python 2 and 3. On macOS <12.3, set the `LocalPython` variable in the AppleScript to "/usr/bin/python". For higher macOS versions, install Python (e.g., via [Anaconda.com](https://www.anaconda.com) or [python.org](https://www.python.org/downloads/)), find out the path of the Python installation (open a terminal and type "which python") and set `LocalPython` to the given result. 
+
+
 
 To make the floating Back-to-toc button work, please add the followong CSS commands to your Markdown style sheet file:
 
