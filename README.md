@@ -142,3 +142,4 @@ The generated TOC with Back-to-toc links in DEVONthink's Markdown preview (top) 
 
 ## Use at your own risk
 I checked all scripts for various possible formatting within a Markdown document and I tried to make them as failure-resistant as possible. Nevertheless, the scripts replace your document's content with an actually new version of the content, which contains the additions mentioned above. In extreme cases, formatting that have not yet been taken into account can cause the scripts to delete parts of the content or even the entire content. **Therefore, please backup your files before you apply the scripts and first try them out with some Markdown files, that contain some formatting that you usually apply to your documents**. Please report any bug in the issue section of this repository.
+
